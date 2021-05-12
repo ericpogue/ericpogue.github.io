@@ -7,7 +7,7 @@ layout: default
   <div class="col-two blog-cols">
     <div class="col col-aside blog-recent">
       <h4>Recent Posts</h4>
-          {{ include recent.posts }}
+          {% include recent-posts.html %}
     </div>
         <div class="col col-content blog-previews">
             {% for post in site.posts %}
