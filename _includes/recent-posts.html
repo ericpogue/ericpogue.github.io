@@ -1,9 +1,11 @@
 <ul class="blog-title-list">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts | limit:5 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
       <span>Posted: {{ post.date | date: '%B %d, %Y' }}</span>
-      <a href="{{ post.authorTwitter }}" class="social-link">Tw</a>
+      <a href="{{ post.authorTwitter }}" class="social-link">
+        <i class="fa fa-twitter"></i>
+      </a>
       Author: {{ post.author }}
     </li>
   {% endfor %}
