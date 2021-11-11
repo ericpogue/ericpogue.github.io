@@ -329,7 +329,7 @@ a img {
           width: 50%;
         }
         .gallery-thumbs .current img {
-          box-shadow: 0 0 0 5px #ed6e2f;
+          box-shadow: 0 0 0 5px #1b817c;
           opacity: 1;
         }
         .gallery-photo {
